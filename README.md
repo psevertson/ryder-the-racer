@@ -1,35 +1,20 @@
 # Ryder the Racer (ryder-the-racer)
 
-A Quasar Project
+An open source game to demonstrate creating a cross-platform game in JS
+https://psevertson.github.io/ryder-the-racer/
 
-## Install the dependencies
+## To Run Locally
+
+### Install the dependencies
 
 ```bash
 yarn
-# or
-npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 
 ```bash
 quasar dev
-```
-
-### Lint the files
-
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-### Format the files
-
-```bash
-yarn format
-# or
-npm run format
 ```
 
 ### Build the app for production
