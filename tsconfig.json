@@ -1,3 +1,10 @@
 {
-  "extends": "./.quasar/tsconfig.json"
+	"extends": "./.quasar/tsconfig.json",
+	"compilerOptions": {
+		"exactOptionalPropertyTypes": true,
+		"strictNullChecks": true
+	},
+	"vueCompilerOptions": {
+		"plugins": ["@vue/language-plugin-pug"]
+	}
 }
